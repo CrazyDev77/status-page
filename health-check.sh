@@ -1,6 +1,6 @@
 commit=true
 origin=$(git remote get-url origin)
-if [[ $origin == *Zaid-maker/status-page* ]]
+if [[ $origin == *CrazyDev77/status-page* ]]
 then
   commit=true
 fi
@@ -56,8 +56,8 @@ done
 if [[ $commit == true ]]
 then
   # Let's make Vijaye the most productive person on GitHub.
-  git config --global user.name 'Zaid-maker'
-  git config --global user.email 'pzhafeez@gmail.com'
+  git config --global user.name 'CrazyDev77'
+  git config --global user.email 'devmirza2022@outlook.com'
   git add -A --force logs/
   git commit -am '[Automated] Update Health Check Logs'
   git push
